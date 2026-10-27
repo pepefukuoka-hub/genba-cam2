@@ -66,3 +66,8 @@ pre#diag, pre.net { margin: 0; white-space: pre-wrap; word-break: break-all; fon
 .pscanbox video { width: 100%; max-height: 36vh; object-fit: cover; border-radius: 10px; background: #000; }
 .pane .qr { max-width: 340px; }
 .pane details { color: var(--muted); font-size: 14px; }
+
+.rbox { position: relative; overflow: hidden; margin: 0 auto; background: #000; border-radius: 12px; max-width: 100%; }
+.rbox > video { position: absolute; left: 50%; top: 50%; max-width: none !important; max-height: none !important; border-radius: 0 !important; object-fit: contain; }
+.rbox:fullscreen { border-radius: 0; }
+.plive .tag { z-index: 2; }
